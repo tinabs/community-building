@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "node",
+      "args": [
+        "/Users/tinbousa/development/Community-Building/node_modules/@upstash/context7-mcp/dist/index.js"
+      ],
+      "env": {
+        "CONTEXT7_API_KEY": "ctx7sk-77aebb25-c26b-4116-8648-f126c915d323"
+      }
+    }
+  }
+}

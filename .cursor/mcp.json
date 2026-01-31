@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ],
+      "env": {
+        "CONTEXT7_API_KEY": "ctx7sk-77aebb25-c26b-4116-8648-f126c915d323"
+      }
+    },
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "supabase-mcp"
+      ],
+      "env": {
+        "SUPABASE_URL": "YOUR_SUPABASE_PROJECT_URL",
+        "SUPABASE_KEY": "sb_secret_8IFIrPQqSnPx3aRoc-MmJg_dtCK9rqd"
+      }
+    }
+  }
+}
