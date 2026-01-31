@@ -1,8 +1,6 @@
 // Community data models based on blueprint
 
-import type { Vibe } from './user';
-
-export type FitnessLevel = 'beginner' | 'intermediate' | 'advanced';
+import type { Vibe, FitnessLevel } from './user';
 
 export type GenderPreference = 'mixed' | 'male-only' | 'female-only';
 

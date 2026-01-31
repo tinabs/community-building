@@ -1,6 +1,7 @@
 // Activity data models based on blueprint
 
-import type { FitnessLevel, GenderPreference } from './community';
+import type { FitnessLevel } from './user';
+import type { GenderPreference } from './community';
 
 export type ActivityStatus = 'upcoming' | 'ongoing' | 'completed' | 'cancelled';
 
